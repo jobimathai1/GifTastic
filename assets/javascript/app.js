@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var displayedButtons = ["Harry Potter", "Hermione Granger", "Ron Weasley"];
+    var displayedButtons = ["cat", "dog", "birds"];
 
     function displayImg(){
         $("#display-images").empty();
@@ -71,5 +71,6 @@ $(document).ready(function(){
 
     renderBtns();
     $(document).on("click", "#input", displayImg);
-    $(document).on("click, #.gif", imgChangeState);
+    $(document).on("click", ".gif", imgChangeState);
+
 });
