@@ -23,15 +23,21 @@
 
 <body>
     <div class="container">
+
+        <!-- Displaying the name of the page here -->
         <div class="jumbotron">
-            <h1>Animal Meme Gif Search</h1>
+            <h1>Giphy Search</h1>
         </div>
+
+        <!-- Area to display the buttons -->
         <div class="row">
             <div class="col-md-12" id="display-buttons"></div>
         </div>
+
+        <!-- Area to display the search field -->
         <div class="row">
             <form id="form">
-                <label for="user-input">Enter an Animal to Search for a GIF</label>
+                <label for="user-input">Enter a word to search for GIFs</label>
                 <br>
                 <input type="text" id="user-input">
                 <input id="submitBtn" type="submit" value="Submit" class="btn btn-default">
@@ -39,6 +45,7 @@
         </div>
     </div>
 
+    <!-- Area to display the gifs -->
     <div class="row">
         <div class="col-md-12" id="display-images"></div>
     </div>
